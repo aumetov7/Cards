@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D82E60B12802D75F008CE10A /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82E60B02802D75F008CE10A /* ViewExtensions.swift */; };
+		D82E60B42802DC85008CE10A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82E60B32802DC85008CE10A /* Settings.swift */; };
+		D82E60B62802DDFF008CE10A /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82E60B52802DDFF008CE10A /* ColorExtensions.swift */; };
+		D82E60B82802ED3E008CE10A /* CardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82E60B72802ED3E008CE10A /* CardToolbar.swift */; };
 		D8DD8C602801A7AA004D3C69 /* CardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD8C5F2801A7AA004D3C69 /* CardsApp.swift */; };
 		D8DD8C642801A7AC004D3C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DD8C632801A7AC004D3C69 /* Assets.xcassets */; };
 		D8DD8C672801A7AC004D3C69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DD8C662801A7AC004D3C69 /* Preview Assets.xcassets */; };
@@ -18,9 +22,16 @@
 		D8DD8C7A2801AE11004D3C69 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD8C792801AE11004D3C69 /* CardDetailView.swift */; };
 		D8DD8C7C2801AF20004D3C69 /* CardModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD8C7B2801AF20004D3C69 /* CardModal.swift */; };
 		D8DD8C7E2801AF49004D3C69 /* CardBottomToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD8C7D2801AF49004D3C69 /* CardBottomToolbar.swift */; };
+		D8DD8C822802CC45004D3C69 /* ResizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD8C812802CC45004D3C69 /* ResizableView.swift */; };
+		D8DD8C842802CCD0004D3C69 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD8C832802CCD0004D3C69 /* Transform.swift */; };
+		D8DD8C862802D119004D3C69 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD8C852802D119004D3C69 /* Operators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D82E60B02802D75F008CE10A /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		D82E60B32802DC85008CE10A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		D82E60B52802DDFF008CE10A /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		D82E60B72802ED3E008CE10A /* CardToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardToolbar.swift; sourceTree = "<group>"; };
 		D8DD8C5C2801A7AA004D3C69 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DD8C5F2801A7AA004D3C69 /* CardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsApp.swift; sourceTree = "<group>"; };
 		D8DD8C632801A7AC004D3C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,6 +44,9 @@
 		D8DD8C792801AE11004D3C69 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
 		D8DD8C7B2801AF20004D3C69 /* CardModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModal.swift; sourceTree = "<group>"; };
 		D8DD8C7D2801AF49004D3C69 /* CardBottomToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBottomToolbar.swift; sourceTree = "<group>"; };
+		D8DD8C812802CC45004D3C69 /* ResizableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableView.swift; sourceTree = "<group>"; };
+		D8DD8C832802CCD0004D3C69 /* Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
+		D8DD8C852802D119004D3C69 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +60,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D82E60AF2802D745008CE10A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D82E60B02802D75F008CE10A /* ViewExtensions.swift */,
+				D82E60B52802DDFF008CE10A /* ColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D82E60B22802DC6B008CE10A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D82E60B32802DC85008CE10A /* Settings.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		D8DD8C532801A7AA004D3C69 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +99,9 @@
 				D8DD8C5F2801A7AA004D3C69 /* CardsApp.swift */,
 				D8DD8C7F2801B93F004D3C69 /* Views */,
 				D8DD8C802801B95B004D3C69 /* Model */,
+				D82E60AF2802D745008CE10A /* Extensions */,
+				D82E60B22802DC6B008CE10A /* Config */,
+				D8DD8C852802D119004D3C69 /* Operators.swift */,
 				D8DD8C632801A7AC004D3C69 /* Assets.xcassets */,
 				D8DD8C652801A7AC004D3C69 /* Preview Content */,
 			);
@@ -91,6 +125,8 @@
 				D8DD8C732801AA35004D3C69 /* SingleCardView.swift */,
 				D8DD8C792801AE11004D3C69 /* CardDetailView.swift */,
 				D8DD8C7D2801AF49004D3C69 /* CardBottomToolbar.swift */,
+				D8DD8C812802CC45004D3C69 /* ResizableView.swift */,
+				D82E60B72802ED3E008CE10A /* CardToolbar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -100,6 +136,7 @@
 			children = (
 				D8DD8C7B2801AF20004D3C69 /* CardModal.swift */,
 				D8DD8C752801AA97004D3C69 /* ViewState.swift */,
+				D8DD8C832802CCD0004D3C69 /* Transform.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,12 +211,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8DD8C842802CCD0004D3C69 /* Transform.swift in Sources */,
+				D8DD8C822802CC45004D3C69 /* ResizableView.swift in Sources */,
 				D8DD8C782801AB50004D3C69 /* CardsView.swift in Sources */,
 				D8DD8C7C2801AF20004D3C69 /* CardModal.swift in Sources */,
+				D82E60B42802DC85008CE10A /* Settings.swift in Sources */,
 				D8DD8C702801A9A0004D3C69 /* CardsListView.swift in Sources */,
+				D8DD8C862802D119004D3C69 /* Operators.swift in Sources */,
 				D8DD8C762801AA97004D3C69 /* ViewState.swift in Sources */,
+				D82E60B12802D75F008CE10A /* ViewExtensions.swift in Sources */,
+				D82E60B82802ED3E008CE10A /* CardToolbar.swift in Sources */,
 				D8DD8C602801A7AA004D3C69 /* CardsApp.swift in Sources */,
 				D8DD8C7E2801AF49004D3C69 /* CardBottomToolbar.swift in Sources */,
+				D82E60B62802DDFF008CE10A /* ColorExtensions.swift in Sources */,
 				D8DD8C742801AA35004D3C69 /* SingleCardView.swift in Sources */,
 				D8DD8C722801A9EC004D3C69 /* CardThumbnailView.swift in Sources */,
 				D8DD8C7A2801AE11004D3C69 /* CardDetailView.swift in Sources */,
