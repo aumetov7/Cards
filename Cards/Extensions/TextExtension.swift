@@ -1,0 +1,17 @@
+//
+//  TextExtension.swift
+//  Cards
+//
+//  Created by Акбар Уметов on 11/4/22.
+//
+
+import SwiftUI
+
+extension Text {
+    func scalableText(font: Font = Font.system(size: 1000)) -> some View {
+        self
+            .font(font)
+            .minimumScaleFactor(0.01)
+            .lineLimit(1)
+    }
+}
